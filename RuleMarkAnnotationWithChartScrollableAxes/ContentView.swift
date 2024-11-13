@@ -42,8 +42,8 @@ struct ContentView: View {
         }
         /*
          FIXME: Uncomment the following line to trigger the issue in question.
+         .chartScrollableAxes(.horizontal)
          */
-        .chartScrollableAxes(.horizontal)
         .chartXSelection(value: $selectedDate)
         .aspectRatio(1, contentMode: .fit)
         .padding()
